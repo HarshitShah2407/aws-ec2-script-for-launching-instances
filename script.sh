@@ -10,13 +10,13 @@ sudo apt install nodejs
 sudo apt install npm
 
 #Clone the repo 
-git clone https://github.com/HarshitShah2407/AWS-DEMO-PROJECT.git
+git clone https://github.com/HarshitShah2407/AWS-DEMO-PROJECT.git /home/ubuntu/project
 
 #cd in the folder
-cd AWS-demo-project
+cd /home/ubuntu/project
 
 #instal packages
-npm install
+sudo npm install
 
 #turn up the server
-npx pm2 start index.js
+sudo npx pm2 start index.js
