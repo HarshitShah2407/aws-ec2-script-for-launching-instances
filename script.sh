@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #update the ubuntu machine
-sudo apt update
+sudo apt update -y
 
 #Install nodejs  in the machine
-sudo apt install nodejs
+sudo apt install nodejs -y
 
 #Install npm in the machine
-sudo apt install npm
+sudo apt install npm -y
 
 #Clone the repo 
 git clone https://github.com/HarshitShah2407/AWS-DEMO-PROJECT.git /home/ubuntu/project
